@@ -1,0 +1,116 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pro Weather App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="clouds">
+  <div class="cloud c1"></div>
+  <div class="cloud c2"></div>
+  <div class="cloud c3"></div>
+</div>
+
+<div id="rain"></div>
+
+<div class="app">
+<h1>Weather App</h1>
+
+<select id="citySelect">
+<option>Karachi</option>
+<option>Lahore</option>
+<option>Islamabad</option>
+<option>Muzaffarabad,PK</option>
+<option>Peshawar</option>
+<option>Quetta</option>
+<option>Multan</option>
+<option>Faisalabad</option>
+<option>Hyderabad</option>
+<option>Sialkot</option>
+<option>Gujranwala</option>
+<option>Rawalpindi</option>
+<option>Bahawalpur</option>
+<option>Sukkur</option>
+<option>Abbottabad</option>
+</select>
+
+<button onclick="getWeather()">Check Weather</button>
+
+<div class="weather-box">
+<h2 id="city"></h2>
+<img id="icon">
+<p id="temp"></p>
+<p id="desc"></p>
+</div>
+
+<div id="forecast"></div>
+<div id="sun">☀</div>
+<div id="moon">🌙</div>
+<div id="sun"></div>
+<div id="moon"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazing Weather App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Backgrounds -->
+<div id="sky"></div>
+<div id="clouds"></div>
+<div id="rain"></div>
+<div id="snow"></div>
+
+<!-- Sun & Moon -->
+<div id="sun"></div>
+<div id="moon"></div>
+
+<!-- App Container -->
+<div class="app">
+  <h1>Weather App</h1>
+  
+  <select id="citySelect" onchange="getWeather()">
+    <option value="">Select City</option>
+    <option value="Muzaffarabad,PK">Muzaffarabad</option>
+    <option value="Karachi,PK">Karachi</option>
+    <option value="Lahore,PK">Lahore</option>
+    <option value="Islamabad,PK">Islamabad</option>
+    <option value="Peshawar,PK">Peshawar</option>
+    <option value="Quetta,PK">Quetta</option>
+    <option value="Faisalabad,PK">Faisalabad</option>
+    <option value="Multan,PK">Multan</option>
+    <option value="Sialkot,PK">Sialkot</option>
+    <option value="Rawalpindi,PK">Rawalpindi</option>
+    <option value="Abbottabad,PK">Abbottabad</option>
+    <option value="Sukkur,PK">Sukkur</option>
+    <option value="Bahawalpur,PK">Bahawalpur</option>
+    <option value="Gilgit,PK">Gilgit</option>
+    <option value="Skardu,PK">Skardu</option>
+  </select>
+
+  <div class="weather-box">
+    <h2 id="city">Loading...</h2>
+    <img id="icon" src="" alt="weather icon">
+    <p id="temp">--°C</p>
+    <p id="desc">--</p>
+    <p id="humidity">Humidity: --%</p>
+    <p id="wind">Wind: -- km/h</p>
+  </div>
+
+  <h3>5-Day Forecast</h3>
+  <div id="forecast"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
