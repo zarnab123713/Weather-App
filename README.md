@@ -1,11 +1,13 @@
 # Weather-App
-🌦 Amazing Animated Weather App
+# 🌦 Amazing Animated Weather App
 
 A modern, interactive weather application built using HTML, CSS, and JavaScript that shows real-time weather, current location updates, animated backgrounds, and a beautiful 5-day forecast system.
 
 This app uses live weather data from OpenWeather API and turns boring weather info into an amazing visual experience.
 
-🚀 Features
+---
+
+## 🚀 Features
 
 ✅ Current location weather using GPS
 
@@ -27,15 +29,19 @@ This app uses live weather data from OpenWeather API and turns boring weather in
 
 ✅ Clean UI with smooth transitions
 
-📂 Project Structure
+---
 
-index.html   → App layout  
+## 📂 Project Structure
 
-style.css    → Design & animations  
+**index.html**   → App layout  
 
-script.js    → Weather logic & API handling  
+**style.css**   → Design & animations  
 
-⚙ How It Works 
+**script.js**    → Weather logic & API handling  
+
+---
+
+## ⚙ How It Works 
 
 • GPS se tumhari current location leta hai
 
@@ -45,7 +51,9 @@ script.js    → Weather logic & API handling
 
 • Forecast cards next 5 days ka clear view deti hain
 
-🧠 Technologies Used
+---
+
+## 🧠 Technologies Used
 
 HTML5
 
@@ -55,26 +63,34 @@ JavaScript (API + DOM + GPS)
 
 OpenWeather API
 
-📸 Preview
+---
+
+## 📸 Preview
 
 <img width="1175" height="630" alt="Screenshot (234)" src="https://github.com/user-attachments/assets/b4197d7c-d578-4014-86e9-334161440930" />
 
 <img width="1182" height="609" alt="Screenshot (235)" src="https://github.com/user-attachments/assets/9e2075cc-f602-4c9d-ae67-cc17d9775e3e" />
 
+--
+## Animations
 
-🌞 Day Mode
+🌞 **Day Mode**
 
-🌙 Night Mode
+🌙 **Night Mode**
 
-🌧 Rain Animation
+🌧 **Rain Animation**
 
-☁ Moving Clouds
+☁ **Moving Clouds**
 
-📅 5 Day Forecast
+---
+
+## 📅 5 Day Forecast
 
 <img width="1255" height="592" alt="Screenshot (237)" src="https://github.com/user-attachments/assets/04c5173b-a338-4bc1-ac3f-8b26f1b2ffdb" />
 
-🔐 Setup
+---
+
+## 🔐 Setup
 
 Clone this repository
 
@@ -88,7 +104,9 @@ Open index.html in browser
 
 Enjoy 🎉
 
-🎯 Why This App Is Special
+---
+
+## 🎯 Why This App Is Special
 
 Most weather apps only show numbers.
 
@@ -96,7 +114,9 @@ This app shows weather with life & motion.
 
 It feels like a real premium mobile weather app — not a boring student project.
 
-📌 Future Improvements
+---
+
+## 📌 Future Improvements
 
 Thunderstorm animation
 
@@ -110,9 +130,12 @@ Dark/light theme toggle
 
 ⭐ If you like this project — give it a star on GitHub!
 
-Agar chaho main:
+---
 
-✔ README ke liye badges
-✔ live demo link section
-✔ screenshots layout
-✔ SEO friendly keywords
+## 📝 Author
+
+Silent eXpert| Zarnab Fatima
+
+Software Engineer 
+
+---
